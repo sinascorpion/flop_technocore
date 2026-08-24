@@ -78,7 +78,7 @@ git --version
 **Clone the repository.** Run:
 
 ```powershell
-git clone https://github.com/zunmax/technocore-did-starter.git
+git clone https://github.com/sinascorpion/technocore-did-starter.git
 Set-Location .\technocore-did-starter
 ```
 
@@ -115,7 +115,7 @@ git --version
 dependency:
 
 ```bat
-git clone https://github.com/zunmax/technocore-did-starter.git
+git clone https://github.com/sinascorpion/technocore-did-starter.git
 cd /d technocore-did-starter
 py -3.12 -m venv .venv
 .venv\Scripts\activate.bat
@@ -143,7 +143,7 @@ git --version
 dependency:
 
 ```bash
-git clone https://github.com/zunmax/technocore-did-starter.git
+git clone https://github.com/sinascorpion/technocore-did-starter.git
 cd technocore-did-starter
 python3.12 -m venv .venv
 source .venv/bin/activate
@@ -179,7 +179,7 @@ git --version
 dependency:
 
 ```bash
-git clone https://github.com/zunmax/technocore-did-starter.git
+git clone https://github.com/sinascorpion/technocore-did-starter.git
 cd technocore-did-starter
 python3.12 -m venv .venv
 source .venv/bin/activate
@@ -405,7 +405,7 @@ command:
   Otherwise, replace it with the public URL of your own Git repository.
 
 ```console
-python technocore_agent.py proof https://github.com/zunmax/technocore-did-starter FULL_COMMIT_HASH --output contribution-proof.json
+python technocore_agent.py proof https://github.com/sinascorpion/technocore-did-starter FULL_COMMIT_HASH --output contribution-proof.json
 python technocore_agent.py verify-proof contribution-proof.json
 ```
 
